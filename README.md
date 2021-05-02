@@ -19,7 +19,7 @@
   # 在终端输入复制hap 到bin目录：
     mv erlan /usr/local/bin  
 
-  # 授给geth授权：
+  # 授给erlan授权：
     chmod +x /usr/local/bin/hap
   # 下载start.sh 并复制到/home/目录,修改start.sh中的矿工账户为你的个人账户
     打开终端 sudo -s 回车授权
@@ -32,16 +32,16 @@
  
 ````
   # 下载
-    下载对应的操作系统版本，并改名为hap.exe，新建d:/hap目录，复制hap到d:/hap目录
+    下载对应的操作系统版本，并改名为erlan.exe，新建d:/erlan目录，复制erlan到d:/erlan目录
 
   # 启动控制台
     win+R 启动cmd 窗口
 
   # 进入D盘下的hap目录
     D:        //在CMD输入D：回车进入D盘
-    cd erlan  //进入hap目录
+    cd erlan  //进入erlan目录
 
-  # 进入hap console控制台
+  # 进入erlan console控制台
     erlan console 
 
   # 生成挖矿账户,注意保存账户地址，密码和对应的keystore
@@ -64,8 +64,8 @@
      ##eth.sendTransaction({from: '0x544.......', to: '0x02df.......', value: 100000000}) 
 #### 在线钱包配套挖矿使用(适用于挖矿中的电脑）
      #wallet.erlan.ink //打开这个网站
-     #pkill hap  //关闭现有挖矿进程：
-     #erlan --rpc --ws --wsorigins "wallet.erlan.ink" --mine //终端执行这条命令（替代hap console)、块高，同步完成后可转账操作\自动挖矿。
+     #pkill erlan  //关闭现有挖矿进程：
+     #erlan --rpc --ws --wsorigins "wallet.erlan.ink" --mine //终端执行这条命令（替代erlan console)、块高，同步完成后可转账操作\自动挖矿。
      #personal.unlockAccount("你的账户")  //在线钱包连接到节点并同步完成后，可使用这个命令解锁你的账户，然后利用在线钱包转账。
      
      
