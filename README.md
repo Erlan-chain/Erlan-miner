@@ -6,7 +6,7 @@
 
 > |工具包|系统版本|下载地址|
 > |-|-|-|
-> |erlan-linux-amd64|linux|[下载地址](https://github.com/erlan/ERLAN-miner/raw/master/ERLAN-linux-amd64/hap.zip)|
+> |erlan-linux-amd64|linux|[下载地址](https://github.com/erlan/ERLAN-miner/raw/master/ERLAN-linux-amd64/erlan.zip)|
 > |erlan-windows-4.0-amd64|winodws|[下载地址](https://github.com/erlan/ERLAN-miner/raw/master/erlan-windows-4.0-amd64.exe/erlan.exe)|
 #### linux 系统终端命令行挖矿指南
 
